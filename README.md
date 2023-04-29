@@ -29,4 +29,6 @@ This is the list of activities to be done
 ## References
 The custom UI Design used for this website was designed by [Grey](https://github.com/KuunibeGracious/web_portfolio_design). It has both light mode and dark mode UI images.Contact him on [Instagram](https://www.instagram.com/graciouskuunibe/) for your custom UI Design
 
-**NB:**: I don't know everything and I am willing to accept correction from you all. Thank you
+---
+
+**NB:** I don't know everything and I am willing to accept correction from you all. Thank you
