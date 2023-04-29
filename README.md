@@ -8,22 +8,22 @@ using React JS
 This is the list of activities to be done
 
 ### HTML Section
-- [] Home section
-- [] About section
-- [] Contact section
-- [] Projects section
-- [] Blog Page
+- [ ] Home section
+- [ ] About section
+- [ ] Contact section
+- [ ] Projects section
+- [ ] Blog Page
 
 ### CSS Section
-- [] Home section
-- [] About section
-- [] Contact section
-- [] Projects section
-- [] Blog Page
-- [] Media query / mobile view
+- [ ] Home section
+- [ ] About section
+- [ ] Contact section
+- [ ] Projects section
+- [ ] Blog Page
+- [ ] Media query / mobile view
 
 ### JS Section
-- [] Switch for light mode and dark mode
+- [ ] Switch for light mode and dark mode
 
 
 ## References
