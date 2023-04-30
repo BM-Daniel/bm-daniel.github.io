@@ -105,6 +105,16 @@ main #home a
 }
 
 /* ABOUT */
+main #about
+{
+    
+}
+
+main #about .expertise-section
+{}
+
+main #about .expertise-section .skills
+{}
 
 
 /* END OF MAIN SECTION */
