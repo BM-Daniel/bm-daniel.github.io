@@ -13,6 +13,11 @@
     margin: 0;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     font-family: 'Poppins', sans-serif;
@@ -110,18 +115,28 @@ main #about
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 0;
-}
-
-main #about > p
-{
-    width: 50%;
+    padding: 80px 0;
 }
 
 main #about > h2
 {
     text-transform: uppercase;
     margin-bottom: 25px;
+}
+
+main #about .line
+{
+    background-color: var(--blue);
+    border: solid var(--blue);
+    width: 50px;
+    position: relative;
+    top: -25px;
+    border-radius: 15%;
+}
+
+main #about > p
+{
+    width: 50%;
 }
 
 main #about > a
