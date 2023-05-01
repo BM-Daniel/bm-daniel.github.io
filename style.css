@@ -2,7 +2,7 @@
 {
     --black: rgb(0, 0, 0);
     --white: rgb(235, 235, 235);
-    --ash: rgb(221, 221, 221);
+    --ash: rgb(224, 219, 216);
     --blue: rgb(0, 117, 252);
 }
 
@@ -16,7 +16,7 @@
 body
 {
     font-family: 'Poppins', sans-serif;
-    background: var(--ash); 
+    background: var(--white); 
 }
 
 a
@@ -107,14 +107,106 @@ main #home a
 /* ABOUT */
 main #about
 {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+main #about p
+{
+    width: 50%;
+}
+
+main #about > h2
+{
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+main #about > a
+{
+    color: var(--white);
+    background-color: var(--blue);
+    margin-top: 30px;
+    border-radius: 3px;
+    padding: 10px 20px;
 }
 
 main #about .expertise-section
-{}
+{
+    margin-top: 100px;
+    width: 80%;
+}
+
+main #about .expertise-section > p
+{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 1.3rem;
+}
 
 main #about .expertise-section .skills
-{}
+{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ash);
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+
+main #about .expertise-section .skills *
+{
+    width: 75%;
+    margin: auto;
+}
+
+main #about .expertise-section .skills > h3,
+main #about .expertise-section .skills .tools,
+main #about .expertise-section .skills .images
+{
+    text-align: center;
+}
+
+main #about .expertise-section .skills .more-info
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+main #about .expertise-section .skills .images
+{
+    width: 50%;
+    margin-top: 20px;
+    border: solid red 2px;
+}
+
+main #about .expertise-section .skills .images img
+{
+    width: 4rem;
+    margin-right: 20px;
+}
+
+main #about .expertise-section .skills #frontend
+{
+    /* background: -webkit-linear-gradient(90deg, rgba(62,52,226,1) 0%, rgba(45,41,105,1) 40%, rgba(108,25,90,1) 70%, rgba(255,0,200,1) 100%); */
+    /* background: linear-gradient(to right, rgb(71, 55, 69), rgba(255,0,200,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+main #about .expertise-section .skills .daniel
+{
+    border: solid red 2px;
+    width: auto;
+}
+
+main #about .expertise-section .skills .info a
+{
+    background-color: var(--blue);
+    color: var(--white);
+}
 
 
 /* END OF MAIN SECTION */
