@@ -56,9 +56,14 @@ header
     z-index: 100;
     width: 100%;
     display: flex;
-    justify-content:flex-end;
     padding: 20px 0;
     background: var(--white);
+}
+
+header > div
+{
+    width: 50%;
+    text-align: right;
 }
 
 header #mode
@@ -68,7 +73,6 @@ header #mode
 
 header #navbar
 {
-    width: 50%;
     font-size: 1.1rem;
 }
 
@@ -134,22 +138,22 @@ main #about
 main #about > h2
 {
     text-transform: uppercase;
-    margin-bottom: 25px;
 }
 
 main #about .line
 {
-    top: -25px;
+    top: 0;
 }
 
 main #about > p
 {
+    margin-top: 2rem;
     width: 50%;
 }
 
 main #about > a
 {
-    margin-top: 30px;   
+    margin-top: 3rem;   
 }
 
 main #about > a,
@@ -157,7 +161,7 @@ main #about .expertise-section .skills .contact-details a,
 footer .top-part .hello
 {
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 0.8rem 1.5rem;
     color: var(--white);
     background-color: var(--blue);
 }
@@ -165,7 +169,7 @@ footer .top-part .hello
 
 main #about .expertise-section
 {
-    margin-top: 100px;
+    margin-top: 8rem;
     width: 80%;
 }
 
@@ -173,15 +177,15 @@ main #about .expertise-section > p
 {
     text-align: center;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     font-size: 1.3rem;
 }
 
 main #about .expertise-section .skills
 {
     background-color: var(--ash);
-    margin-bottom: 30px;
-    padding: 20px 0;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
 }
 
 main #about .expertise-section .skills .top-part
@@ -189,20 +193,20 @@ main #about .expertise-section .skills .top-part
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 main #about .expertise-section .skills .top-part .more-info
 {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     width: 70%;
 }
 
 main #about .expertise-section .skills .images img
 {
     width: 4rem;
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 main #about .expertise-section .skills .top-part #frontend
@@ -220,7 +224,7 @@ main #about .expertise-section .skills .bottom-part
 
 main #about .expertise-section .skills .contact-details a:first-child
 {
-    margin-right: 15px;
+    margin-right: 1.5rem;
 }
 
 /* PROJECTS */
@@ -265,7 +269,7 @@ main #projects .tiles div img
 {
     width: 100%;
     height: 70%;
-    border-radius: 15px;
+    border-radius: 1.5rem;
 }
 
 main #projects .tiles div h3
@@ -350,10 +354,10 @@ footer .media .socials a i
     color: var(--ash2);
 }
 
-footer .media .socials i:nth-of-type(1),
-footer .media .socials i:nth-of-type(2),
-footer .media .socials i:nth-of-type(3),
-footer .media .socials i:nth-of-type(4)
+footer .media .socials a:nth-of-type(1),
+footer .media .socials a:nth-of-type(2),
+footer .media .socials a:nth-of-type(3),
+footer .media .socials a:nth-of-type(4)
 {
     margin-right: 4rem;
 }
@@ -373,3 +377,23 @@ footer .end-line
 }
 
 /* END OF FOOTER/CONTACT */
+
+
+/* MEDIA QUERIES */
+/* X-Large devices: large desktops */
+@media screen and (max-width: 1200px)
+{}
+
+/* Large devices: desktops */
+@media screen and (max-width: 992px)
+{}
+
+/* Medium devices: tablets */
+@media screen and (max-width: 768px)
+{}
+
+/* Small devices: landscape phones */
+@media screen and (max-width: 576px) 
+{}
+
+/* END OF MEDIA QUERIES */
