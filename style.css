@@ -35,6 +35,14 @@ ul
     list-style-type: none;
 }
 
+.line
+{
+    border: solid var(--blue);
+    width: 50px;
+    position: relative;
+    border-radius: 15%;
+}
+
 
 /* HEADER SECTION */
 header
@@ -126,12 +134,7 @@ main #about > h2
 
 main #about .line
 {
-    background-color: var(--blue);
-    border: solid var(--blue);
-    width: 50px;
-    position: relative;
     top: -25px;
-    border-radius: 15%;
 }
 
 main #about > p
@@ -209,16 +212,63 @@ main #about .expertise-section .skills .contact-details a:first-child
     margin-right: 15px;
 }
 
+/* PROJECTS */
+main #projects
+{
+    margin: 0 17rem;
+    padding: 5rem 0 30rem;
+}
 
+main #projects > div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12rem;
+}
 
+main #projects > div h2
+{
+    text-align: center;
+    text-transform: uppercase;
+}
 
+main #projects > div .line
+{
+    top: 0;
+}
 
+main #projects .tiles
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8rem;
+}
 
+main #projects .tiles div
+{
+    /* border: solid; */
+    height: 25rem;
+}
 
+main #projects .tiles div img
+{
+    width: 100%;
+    height: 70%;
+    border-radius: 15px;
+}
 
-
-
+main #projects .tiles div h3
+{
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
 
 /* END OF MAIN SECTION */
 
-/* border: solid 2px rgb(65, 163, 255); */
+
+/* FOOTER/CONTACT */
+
+
+
+/* END OF FOOTER/CONTACT */
