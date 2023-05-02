@@ -1,10 +1,14 @@
 :root
 {
-    --black: rgb(0, 0, 0);
-    --white: rgb(235, 235, 235);
-    --ash: rgb(224, 219, 216);
-    --ash2: rgb(173, 173, 173);
-    --blue: rgb(0, 117, 252);
+    --black: #000000;
+    --black2: #222222;
+    --white: #ffffff;
+    --ash: #f3f2f2;
+    --ash2: #bebebe;
+    --blue: #1d8af5;
+    --gradient-1: #3d28bd;
+    --gradient-2: #92318e;
+    --gradient-3: #ec3b5b;
 }
 
 *
@@ -202,7 +206,12 @@ main #about .expertise-section .skills .images img
 }
 
 main #about .expertise-section .skills .top-part #frontend
-{}
+{
+    background: -webkit-linear-gradient(45deg, var(--gradient-1), var(--gradient-2), var(--gradient-3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 main #about .expertise-section .skills .bottom-part
 {
@@ -218,7 +227,7 @@ main #about .expertise-section .skills .contact-details a:first-child
 main #projects
 {
     margin: 0 17rem;
-    padding: 5rem 0 30rem;
+    padding: 5rem 0 15rem;
 }
 
 main #projects > div
@@ -249,7 +258,6 @@ main #projects .tiles
 
 main #projects .tiles div
 {
-    /* border: solid; */
     height: 25rem;
 }
 
@@ -298,7 +306,7 @@ footer .top-part a .bx-up-arrow-circle
 footer .top-part h2
 {
     text-transform: uppercase;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
 
 footer .top-part .line
@@ -333,7 +341,7 @@ footer .top-part .hello
 
 footer .media
 {
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 footer .media .socials a i
@@ -352,12 +360,12 @@ footer .media .socials i:nth-of-type(4)
 
 footer .media .copyright
 {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 footer .end-line
 {
-    background: linear-gradient(45deg, #3d28bd, #92318e, #ec3b5b);
+    background: linear-gradient(45deg, var(--gradient-1), var(--gradient-2), var(--gradient-3));
     width: 100%;
     height: 0.8rem;
     position: absolute;
