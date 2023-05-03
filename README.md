@@ -8,26 +8,27 @@ using React JS
 This is the list of activities to be done
 
 ### HTML Section
-- [ ] Home section
-- [ ] About section
-- [ ] Contact section
-- [ ] Projects section
+- [x] Home section
+- [x] About section
+- [x] Contact section
+- [x] Projects section
 - [ ] Blog Page
 
 ### CSS Section
-- [ ] Home section
-- [ ] About section
-- [ ] Contact section
-- [ ] Projects section
+- [x] Home section
+- [x] About section
+- [x] Contact section
+- [x] Projects section
 - [ ] Blog Page
-- [ ] Media query / mobile view
+- [x] Media query / mobile view
 
 ### JS Section
-- [ ] Switch for light mode and dark mode
+- [x] Switch for light mode and dark mode
+- [x] Make copyright year dynamic
 
 
 ## References
-The custom UI Design used for this website was designed by [Grey](https://github.com/KuunibeGracious/web_portfolio_design). It has both light mode and dark mode UI images.Contact him on [Instagram](https://www.instagram.com/graciouskuunibe/) for your custom UI Design
+The custom UI Design used for this website was designed by [Grey](https://github.com/KuunibeGracious/web-portfolio-design). It has both light mode and dark mode UI images.Contact him on [Instagram](https://www.instagram.com/graciouskuunibe/) for your custom UI Design
 
 ---
 

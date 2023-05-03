@@ -1,6 +1,17 @@
 :root
 {
-    --black: #000000;
+    --black: rgb(0, 0, 0); 
+    --black2: rgb(34, 34, 34);
+    --white: rgb(255, 255, 255);
+    --ash: rgb(243, 242, 242);
+    --ash2: rgb(190, 190, 190);
+    --blue: rgb(29, 138, 245);
+    --gradient-1: rgb(61, 40, 189);
+    --gradient-2: rgb(146, 49, 142);
+    --gradient-3: rgb(236, 59, 91);
+
+    /* HEX VALUES
+    --black: #000000; 
     --black2: #222222;
     --white: #ffffff;
     --ash: #f3f2f2;
@@ -9,6 +20,7 @@
     --gradient-1: #3d28bd;
     --gradient-2: #92318e;
     --gradient-3: #ec3b5b;
+     */
 }
 
 *
@@ -26,7 +38,8 @@ html
 body
 {
     font-family: 'Poppins', sans-serif;
-    background: var(--white); 
+    background-color: var(--white);
+    color: var(--black);
 }
 
 a
@@ -57,7 +70,7 @@ header
     width: 100%;
     display: flex;
     padding: 20px 0;
-    background: var(--white);
+    background-color: var(--white);
 }
 
 header > div
@@ -293,7 +306,6 @@ main #projects .tiles div h3
 footer
 {
     background-color: var(--ash);
-    /* height: 95vh; */
     padding-top: 3rem;
     position: relative;
 }
