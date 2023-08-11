@@ -176,6 +176,7 @@ main #about > p
 {
     margin-top: 2rem;
     width: 50%;
+    text-align: justify;
 }
 
 main #about > a
@@ -228,6 +229,7 @@ main #about .expertise-section .skills .top-part .more-info
     margin-top: 2rem;
     margin-bottom: 3rem;
     width: 70%;
+    text-align: justify;
 }
 
 main #about .expertise-section .skills .images
@@ -236,6 +238,7 @@ main #about .expertise-section .skills .images
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 main #about .expertise-section .skills .images img
