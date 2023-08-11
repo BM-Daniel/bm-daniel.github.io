@@ -138,6 +138,13 @@ main #home .info
     text-align: center;
 }
 
+main #home .info span
+{
+    color: var(--blue);
+    font-weight: 600;
+    margin: 0 0.3rem;
+}
+
 main #home a
 {
     display: block;
@@ -223,10 +230,17 @@ main #about .expertise-section .skills .top-part .more-info
     width: 70%;
 }
 
+main #about .expertise-section .skills .images
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
 main #about .expertise-section .skills .images img
 {
     width: 4rem;
-    margin-right: 2rem;
 }
 
 main #about .expertise-section .skills .top-part #frontend
@@ -339,6 +353,7 @@ footer .top-part .info
 {
     width: 50%;
     margin: 4rem 0;
+    text-align: center;
 }
 
 footer .top-part .email
